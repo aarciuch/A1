@@ -77,11 +77,6 @@
             android:text="start thread"
             android:layout_margin="8dp"/>
 
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="go2WorkManager Activity"
-            android:layout_margin="8dp"/>
+
     </LinearLayout>
 </layout>
