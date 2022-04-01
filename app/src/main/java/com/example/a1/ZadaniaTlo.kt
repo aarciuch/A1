@@ -37,10 +37,13 @@ class ZadaniaTlo  {
             val a4 = async { s10(5) }
             a1.start()
             a2.start()
+
             val z3 = a3.await()
             val z4 = a4.await()
+
             println("a2: Odpowiedź jest ${a1.await() + a2.await()}")
             println("a2: Odpowiedź jest ${z3 + z4}")
+
         }
         println("a2: czas obliczeń = $time ms")
     }

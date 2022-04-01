@@ -41,8 +41,6 @@ class MainActivity : AppCompatActivity() {
         binding.button1.setOnClickListener {
             liczWtle()
         }
-
-
     }
 
     private fun liczWtle() {
